@@ -2,4 +2,5 @@
 Mobile First Project
 <!-- TO DO:
 x particles.js 
+x ktos powie bla bla bla
 -->
