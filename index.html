@@ -8,7 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+  <div id="wrapper">
+  <div id="content">
   <main>
+   
     <!--Landing Area-->
     <div id="landing">
       <div id="landing-text">
@@ -57,18 +60,29 @@
       </div>
     </div>
   </main>
-
+  </div>
+  <div id="particles-js"></div>
+</div>
+  </div>
   <footer>
     <h3>Get In Touch</h3>
     <p> Email or call us to set up a consult</p>
     <p>Email: <strong>contact@acmephotos.test</strong></p>
     <p>Phone: <strong>(666) 666-6666</strong></p>
   </footer>
+
+  </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
   crossorigin="anonymous"></script>
 
   <script src="js/main.js"></script>
+  <script src="js/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded...');
+        });
+    </script>
 
 </body>
 </html> 
